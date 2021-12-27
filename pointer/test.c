@@ -55,26 +55,26 @@ int main()
   // }
 
   // 5
-  int arr[] = {1,2,3,4,5,6}, i, ch = 0;
-  int *ptr1 = &arr[5];
-  int *ptr2 = arr;
-  printf("순서 변환 전 ============= \n");
-  for(i = 0; i < 6; i++){
-    printf("%d번째 배열 값 : %d \n", i, arr[i]);
-  }
+  // int arr[] = {1,2,3,4,5,6}, i, ch = 0;
+  // int *ptr1 = &arr[5];
+  // int *ptr2 = arr;
+  // printf("순서 변환 전 ============= \n");
+  // for(i = 0; i < 6; i++){
+  //   printf("%d번째 배열 값 : %d \n", i, arr[i]);
+  // }
 
-  for(i = 0; i <= 2; i++){
-    ch = *ptr1;
-    *ptr1 = *ptr2;
-    *ptr2 = ch;
-    ptr1--;
-    ptr2++;
-  }
+  // for(i = 0; i <= 2; i++){
+  //   ch = *ptr1;
+  //   *ptr1 = *ptr2;
+  //   *ptr2 = ch;
+  //   ptr1--;
+  //   ptr2++;
+  // }
 
-  printf("순서 변환 후 ============= \n");
-  for(i = 0; i < 6; i++){
-    printf("%d번째 배열 값 : %d \n", i, arr[i]);
-  }
-  
+  // printf("순서 변환 후 ============= \n");
+  // for(i = 0; i < 6; i++){
+  //   printf("%d번째 배열 값 : %d \n", i, arr[i]);
+  // }
+
   return 0;
 }
